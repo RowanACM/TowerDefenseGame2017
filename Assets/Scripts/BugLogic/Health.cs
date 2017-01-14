@@ -29,11 +29,13 @@ public class Health : MonoBehaviour {
             }
             else
             {
+                SendMessage("OnDamage", SendMessageOptions.DontRequireReceiver);
                 this.health -= finalDamage;
             }
         }
         else
         {
+            SendMessage("OnDamage", SendMessageOptions.DontRequireReceiver);
             this.health -= damage;
         }
         checkHealth();
