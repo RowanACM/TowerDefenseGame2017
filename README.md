@@ -9,4 +9,4 @@ This repository will evolve into a fully open-source tower defense game created 
 1. Install the Unity Game Engine.
 2. Locate your UnityProjects folder. This is where Unity will store all projects you create.
 3. Clone this repository inside of your UnityProjects folder.
-Now you will be able to open and edit this project in Unity. Make sure to authorize changes and commit them once you have reached a stable point in development.
+<b>Now you will be able to open and edit this project in Unity. Make sure to authorize changes and commit them once you have reached a stable point in development.</b>
