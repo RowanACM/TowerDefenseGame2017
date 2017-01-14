@@ -7575,13 +7575,18 @@ MonoBehaviour:
     nextPieceDelay: 1
   - typeOfObject: {fileID: 1368189958119608, guid: c97d493aa7e9af2408a02bb79250d8ca,
       type: 2}
-    quantity: 10
-    spawnDelay: 0.4
+    quantity: 15
+    spawnDelay: 0.2
     nextPieceDelay: 2
   - typeOfObject: {fileID: 1076076697536456, guid: 6deddc1fb6637064b86dae02cdca8b11,
       type: 2}
-    quantity: 1
-    spawnDelay: 0.2
+    quantity: 10
+    spawnDelay: 0.6
+    nextPieceDelay: 0
+  - typeOfObject: {fileID: 1368189958119608, guid: c97d493aa7e9af2408a02bb79250d8ca,
+      type: 2}
+    quantity: 50
+    spawnDelay: 0.1
     nextPieceDelay: 0
 --- !u!4 &1324637792
 Transform:
@@ -7721,7 +7726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383e632efd847445780c109fa906d5fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 200
+  money: 500
   gameCamera: {fileID: 1666599498}
   selectedObject: {fileID: 0}
   upgradeCost: {fileID: 900893183}
