@@ -10,6 +10,10 @@ public class StoreItemUI : MonoBehaviour {
     private bool dragging;
     Store gameStore;
     OutlineComponent outline;
+    Placeable placement;
+    Selectable selectable;
+    ArrowPointer pointer;
+    Color highlightColor;
 
     // Use this for initialization
     void Start () {
@@ -18,7 +22,10 @@ public class StoreItemUI : MonoBehaviour {
         outline.Enable();
 		outline.setParticles(false);
         dragging = true;
-	}
+        pointer = GetComponentInChildren<ArrowPointer>();
+        placement = GetComponent<Placeable>();
+        selectable = GetComponent<Selectable>();
+    }
 
     public void startPurchaseProcess()
 	{
@@ -26,35 +33,50 @@ public class StoreItemUI : MonoBehaviour {
 		    outline.Enable();	
 	}
 
+    public void SetHighlightColor(Color color)
+    {
+        outline.setColor(color);
+        pointer.setColor(color);
+        highlightColor = color;
+    }
+
     public void Update()
     {
         if (dragging)
         {
-            ArrowPointer pointer = GetComponentInChildren<ArrowPointer>();
-            Placeable placement = GetComponent<Placeable>();
             if (placement)
             {
+                //select the proper current highlight color
+                Color newHighlightColor;
+                if (placement.CanPlace())
+                {
+                    if (selectable && selectable.IsSelected())
+                    {
+                        newHighlightColor = Color.yellow;
+                    }
+                    else
+                    {
+                        newHighlightColor = Color.green;
+                    }
+                } else
+                {
+                    newHighlightColor = Color.red;
+                }
+                if(newHighlightColor != highlightColor)
+                {
+                    SetHighlightColor(newHighlightColor);
+                }
+
                 if (pointer)
                 {
                     if (placement.spawnCell)
                     {
-                        pointer.target = placement.spawnCell.transform; 
-                    }
-                    if (placement.CanPlace())
-                    {
-                        pointer.setColor(Color.green);
+                        pointer.target = placement.spawnCell.transform;
                     }
                     else
                     {
-                        pointer.setColor(Color.red);
+                        pointer.target = null;
                     }
-                }
-                if (placement.CanPlace())
-                {
-                    outline.setColor(Color.green);
-                } else
-                {
-                    outline.setColor(Color.red);
                 }
             }
         }
@@ -100,7 +122,7 @@ public class StoreItemUI : MonoBehaviour {
 	
 	public void OnSelect(){
 		outline.Enable();
-        outline.setColor(Color.yellow);
+        SetHighlightColor(Color.yellow);
 		outline.setParticles(true);
 	}
 
@@ -113,11 +135,6 @@ public class StoreItemUI : MonoBehaviour {
         }
     }
 
-    public void OnInvalid()
-    {
-
-    }
-
     public void OnDrag()
     {
         outline.Enable();
@@ -127,12 +144,7 @@ public class StoreItemUI : MonoBehaviour {
 	
 	public void OnPlace()
 	{
-        Selectable selectable = GetComponent<Selectable>();
-        if (selectable && selectable.IsSelected())
-        {
-            outline.setColor(Color.white);
-        }
-        else
+        if (!(selectable && selectable.IsSelected()))
         {
             outline.Disable();
         }

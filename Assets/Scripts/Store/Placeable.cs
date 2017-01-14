@@ -137,6 +137,11 @@ public class Placeable : MonoBehaviour {
         }
     }
 
+    public bool IsPlaced()
+    {
+        return placementState == PlacementState.Placed || placementState == PlacementState.StartDrag;
+    }
+
     public bool CanPlace()
     {
         Purchaseable purchase = GetComponent<Purchaseable>();
