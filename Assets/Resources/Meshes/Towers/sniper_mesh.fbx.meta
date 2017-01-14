@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: bb7ad218cfaf4f64a98439e7e3728efa
+timeCreated: 1483583133
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Axle
+    100002: Barrel
+    100004: BulletSpawn
+    100006: Gun
+    100008: GunBase
+    100010: Legs
+    100012: Scope
+    100014: //RootNode
+    100016: Supports
+    400000: Axle
+    400002: Barrel
+    400004: BulletSpawn
+    400006: Gun
+    400008: GunBase
+    400010: Legs
+    400012: Scope
+    400014: //RootNode
+    400016: Supports
+    2300000: Axle
+    2300002: Barrel
+    2300004: GunBase
+    2300006: Legs
+    2300008: Scope
+    2300010: //RootNode
+    2300012: Supports
+    3300000: Axle
+    3300002: Barrel
+    3300004: GunBase
+    3300006: Legs
+    3300008: Scope
+    3300010: //RootNode
+    3300012: Supports
+    4300000: Base
+    4300002: Axle
+    4300004: GunBase
+    4300006: Barrel
+    4300008: Scope
+    4300010: Supports
+    4300012: Legs
+    7400000: GunBase|Cube.004Action
+    7400002: GunBase|Cube.005Action
+    7400004: GunBase|Cylinder.001Action
+    7400006: Barrel|Cube.004Action
+    7400008: Barrel|Cube.005Action
+    7400010: Barrel|Cylinder.001Action
+    7400012: Scope|Cube.004Action
+    7400014: Scope|Cube.005Action
+    7400016: Scope|Cylinder.001Action
+    7400018: Supports|Cube.004Action
+    7400020: Supports|Cube.005Action
+    7400022: Supports|Cylinder.001Action
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

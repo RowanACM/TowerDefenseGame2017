@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 9aa06f49b29144745a1a76091b4f4cfd
+timeCreated: 1460748981
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BezierCircle
+    100002: BezierCurve_000
+    100004: BezierCurve_001
+    100006: Cone_001
+    100008: Cube
+    100010: Cube_001
+    100012: Cube_002
+    100014: Cube_003
+    100016: Cube_004
+    100018: Cylinder_001
+    100020: Cylinder_002
+    100022: //RootNode
+    100024: Sphere
+    100026: BezierCircle_001
+    100028: BezierCircle_002
+    100030: BezierCurve_002
+    100032: Axle
+    100034: Base
+    100036: BulletSpawn
+    100038: Cube_005
+    100040: GunParent
+    100042: Supports
+    100044: Barrel
+    100046: Gun
+    100048: GunBVVase
+    100050: Legs
+    100052: Scope
+    100054: GunBase
+    400000: BezierCircle
+    400002: BezierCurve_000
+    400004: BezierCurve_001
+    400006: Cone_001
+    400008: Cube
+    400010: Cube_001
+    400012: Cube_002
+    400014: Cube_003
+    400016: Cube_004
+    400018: Cylinder_001
+    400020: Cylinder_002
+    400022: //RootNode
+    400024: Sphere
+    400026: BezierCircle_001
+    400028: BezierCircle_002
+    400030: BezierCurve_002
+    400032: Axle
+    400034: Base
+    400036: BulletSpawn
+    400038: Cube_005
+    400040: GunParent
+    400042: Supports
+    400044: Barrel
+    400046: Gun
+    400048: GunBVVase
+    400050: Legs
+    400052: Scope
+    400054: GunBase
+    2300000: BezierCircle
+    2300002: BezierCurve_000
+    2300004: BezierCurve_001
+    2300006: Cone_001
+    2300008: Cube
+    2300010: Cube_001
+    2300012: Cube_002
+    2300014: Cube_003
+    2300016: Cube_004
+    2300018: Cylinder_001
+    2300020: Cylinder_002
+    2300022: Sphere
+    2300024: BezierCircle_001
+    2300026: BezierCircle_002
+    2300028: BezierCurve_002
+    2300030: Axle
+    2300032: Base
+    2300034: Cube_005
+    2300036: Supports
+    2300038: //RootNode
+    2300040: Barrel
+    2300042: GunBVVase
+    2300044: Legs
+    2300046: Scope
+    2300048: GunBase
+    3300000: BezierCircle
+    3300002: BezierCurve_000
+    3300004: BezierCurve_001
+    3300006: Cone_001
+    3300008: Cube
+    3300010: Cube_001
+    3300012: Cube_002
+    3300014: Cube_003
+    3300016: Cube_004
+    3300018: Cylinder_001
+    3300020: Cylinder_002
+    3300022: Sphere
+    3300024: BezierCircle_001
+    3300026: BezierCircle_002
+    3300028: BezierCurve_002
+    3300030: Axle
+    3300032: Base
+    3300034: Cube_005
+    3300036: Supports
+    3300038: //RootNode
+    3300040: Barrel
+    3300042: GunBVVase
+    3300044: Legs
+    3300046: Scope
+    3300048: GunBase
+    4300000: Cube_004
+    4300002: Cylinder_002
+    4300004: Cylinder_001
+    4300006: BezierCircle
+    4300008: BezierCurve_000
+    4300010: Cone_001
+    4300012: Cube_003
+    4300014: Cube_002
+    4300016: Cube_001
+    4300018: Cube
+    4300020: BezierCurve_001
+    4300022: Sphere
+    4300024: BezierCircle_001
+    4300026: BezierCircle_002
+    4300028: BezierCurve_002
+    4300030: Axle
+    4300032: Base
+    4300034: Supports
+    4300036: Cube_005
+    4300038: GunBVVase
+    4300040: Barrel
+    4300042: Scope
+    4300044: Legs
+    4300046: GunBase
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
