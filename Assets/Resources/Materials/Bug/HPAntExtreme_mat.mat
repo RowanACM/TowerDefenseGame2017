@@ -6,11 +6,11 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: HPAnt_mat
-  m_Shader: {fileID: 4800000, guid: 190fc774f03f44b42a3c616a1a4f1644, type: 3}
-  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION _LIGHTMAPPING_REALTIME _NORMALMAP
+  m_Name: HPAntExtreme_mat
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _LIGHTMAPPING_REALTIME _NORMALMAP
   m_LightmapFlags: 1
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -84,13 +84,19 @@ Material:
       second: 0.001
     - first:
         name: _DstBlend
-      second: 10
+      second: 0
     - first:
         name: _EmissionScaleUI
       second: 1
     - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
         name: _Glossiness
-      second: 0.55
+      second: 1
+    - first:
+        name: _GlossyReflections
+      second: 1
     - first:
         name: _Lightmapping
       second: 1
@@ -99,7 +105,7 @@ Material:
       second: 1
     - first:
         name: _Mode
-      second: 2
+      second: 0
     - first:
         name: _OcclusionStrength
       second: 1
@@ -113,24 +119,30 @@ Material:
         name: _Parallax
       second: 0.0333
     - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
         name: _SrcBlend
-      second: 5
+      second: 1
     - first:
         name: _UVSec
       second: 0
     - first:
         name: _ZWrite
-      second: 0
+      second: 1
     m_Colors:
     - first:
         name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+      second: {r: 1, g: 0.4705882, b: 0.4705882, a: 1}
     - first:
         name: _EmissionColor
-      second: {r: 1, g: 0.98357004, b: 0.4044118, a: 1}
+      second: {r: 1, g: 0.75334686, b: 0.5294118, a: 1}
     - first:
         name: _EmissionColorUI
-      second: {r: 1, g: 0.98357004, b: 0.4044118, a: 1}
+      second: {r: 1, g: 0.18382353, b: 0.18382353, a: 1}
     - first:
         name: _MainColor
       second: {r: 0, g: 0.751724, b: 1, a: 1}

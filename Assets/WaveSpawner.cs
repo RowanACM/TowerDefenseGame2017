@@ -17,14 +17,30 @@ public class WaveSpawner : MonoBehaviour {
     public float startWait;
     public WavePiece[] wavePieces;
     private int currentWavePiece;
-
+    private CountdownTextAnimation countdown;
+    private IEnumerator waveSpawnCoroutine;
 	// Use this for initialization
 	void Start () {
-        StartCoroutine(SpawnWave());
+        countdown = GameObject.FindObjectOfType<CountdownTextAnimation>();
 	}
+
+    public bool CanStartWave()
+    {
+        return waveSpawnCoroutine == null;
+    }
+
+    public void StartWave()
+    {
+        if (waveSpawnCoroutine == null)
+        {
+            waveSpawnCoroutine = SpawnWave();
+            StartCoroutine(waveSpawnCoroutine);
+        }
+    }
 
     IEnumerator SpawnWave()
     {
+        countdown.Countdown((int)startWait, "Incoming!");
         yield return new WaitForSeconds(startWait);
         for (int i = 0; i < wavePieces.Length; i++)
         {
@@ -43,5 +59,6 @@ public class WaveSpawner : MonoBehaviour {
             }
             yield return new WaitForSeconds(wavePieces[i].nextPieceDelay);
         }
+        waveSpawnCoroutine = null;
     }
 }

@@ -870,7 +870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a85b6dddb738fa41a3f3d8403687587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firingRate: 0.1
+  firingRate: 1
 --- !u!114 &114217768605562140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawn: {fileID: 4235818036575620}
-  damage: 1
+  damage: 3
   range: 10
 --- !u!114 &114480459692742110
 MonoBehaviour:
