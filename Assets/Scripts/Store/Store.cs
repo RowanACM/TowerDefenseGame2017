@@ -32,6 +32,11 @@ public class Store : MonoBehaviour {
         }
 	}
 
+    public void ReceiveMoney(int amount)
+    {
+        money += amount;
+    }
+
 	void Update() {
 		if (selectedObject) {
 			selectedItemPanel.SetActive (true);

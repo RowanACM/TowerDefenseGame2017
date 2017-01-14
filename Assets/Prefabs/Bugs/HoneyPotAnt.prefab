@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114653682254885644}
   - component: {fileID: 114960279148663206}
   - component: {fileID: 136555130483298038}
+  - component: {fileID: 114679357901282064}
   m_Layer: 0
   m_Name: HoneyPotAnt
   m_TagString: Untagged
@@ -99,7 +100,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1368189958119608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.7, y: 4.6, z: -9.3}
+  m_LocalPosition: {x: -31.033531, y: 1.0960007, z: -4.4583597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4622218816510338}
@@ -211,6 +212,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7772d97adddf8c4bb4d20d73ccdac20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114679357901282064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1368189958119608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d113773f417dbae4686ff249196fa583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prizeMoney: 5
 --- !u!114 &114960279148663206
 MonoBehaviour:
   m_ObjectHideFlags: 1
